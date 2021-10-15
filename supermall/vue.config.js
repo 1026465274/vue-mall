@@ -9,7 +9,7 @@
 //         config.resolve.alias
 //             //第一个参数：别名 第二个参数：路径
 //             .set('components',resolve('src/components'))
-//             .set('assets',resolve('src/assets'))
+//             .set('assets',resolve('./src/assets'))
 //             .set('common',resolve('src/common'))
 //             .set('views',resolve('src/views'))
 //             .set('network'.resolve('src/network'))
@@ -24,7 +24,7 @@ module.exports = {
       alias:{
         'assets':"@/assets",
         'common':"@/common",
-        'components':"@/components",
+        'components':'@/components',
         'network':"@/network",
         'views': '@/views'
       }
