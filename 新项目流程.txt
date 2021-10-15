@@ -2,3 +2,7 @@
 	1.划分目录结构
 	
  	2.引入css文件
+
+	3. vue.config.js 和 .editorconfig
+
+	4.项目的模块化划分：tabbar->路由的映射关系
