@@ -2,3 +2,6 @@
 :root {
   color: #666;
 }
+a {
+  text-decoration: none;
+}

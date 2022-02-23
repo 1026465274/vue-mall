@@ -1,6 +1,6 @@
 <template>
 
-    <div class="tab-bar-item" @click="itemClick">
+    <div class="tab-bar-item" @click="itemClick()">
       <slot v-if="!isActive" name="item-icon" :key="A"> </slot>
       <slot v-else name="item-active-icon" :key="b"> </slot>
       <div :style="activeStyle">   <slot   name="item-text"> </slot>
